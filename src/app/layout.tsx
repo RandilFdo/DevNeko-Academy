@@ -34,10 +34,11 @@ export const metadata: Metadata = {
   description: "A high-performance, minimalist LMS for robotics education.",
   icons: {
     icon: [
-      { url: '/images/DevNeko_Logo.png', type: 'image/png' },
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/Images/DevNeko_Logo.png', type: 'image/png' },
     ],
-    shortcut: '/images/DevNeko_Logo.png',
-    apple: '/images/DevNeko_Logo.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   }
 };
 
