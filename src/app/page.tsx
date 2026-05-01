@@ -232,12 +232,12 @@ export default function Home() {
                 {[...Array(2)].map((_, i) => (
                   <div key={i} className="flex gap-12 md:gap-24 items-center">
                     {[
-                      { name: "UOM", full: "University of Moratuwa", logo: "/images/UOM.png", color: "shadow-purple-500/20" },
-                      { name: "UOP", full: "University of Peradeniya", logo: "/images/UOP.png", color: "shadow-emerald-500/20" },
-                      { name: "IIT", full: "Informatics Institute", logo: "/images/IIT.png", color: "shadow-pink-500/20" },
-                      { name: "USJP", full: "Sri Jayawardenepura", logo: "/images/USJP.png", color: "shadow-yellow-500/20" },
-                      { name: "KDU", full: "General Sir John", logo: "/images/KDU.png", color: "shadow-cyan-500/20" },
-                      { name: "SLIIT", full: "SLIIT Academy", logo: "/images/SLIIT.png", color: "shadow-orange-500/20" }
+                      { name: "UOM", full: "University of Moratuwa", logo: "/Images/UOM.png", color: "shadow-purple-500/20" },
+                      { name: "UOP", full: "University of Peradeniya", logo: "/Images/UOP.png", color: "shadow-emerald-500/20" },
+                      { name: "IIT", full: "Informatics Institute", logo: "/Images/IIT.png", color: "shadow-pink-500/20" },
+                      { name: "USJP", full: "Sri Jayawardenepura", logo: "/Images/USJP.png", color: "shadow-yellow-500/20" },
+                      { name: "KDU", full: "General Sir John", logo: "/Images/KDU.png", color: "shadow-cyan-500/20" },
+                      { name: "SLIIT", full: "SLIIT Academy", logo: "/Images/SLIIT.png", color: "shadow-orange-500/20" }
                     ].map((uni) => (
                       <div key={uni.name} className="flex flex-col items-center gap-6 group/logo">
                         <div className={`relative w-24 h-24 md:w-32 md:h-32 flex items-center justify-center transition-all duration-500 group-hover/logo:scale-110`}>
