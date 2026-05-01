@@ -87,7 +87,7 @@ export default function Home() {
             transition={{ delay: 0.4, duration: 1 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 font-medium"
           >
-            A nurturing environment where young minds flourish, build robots, and explore their digital artistic talents.
+            DevNeko Academy is the premier robotics and AI academy where young minds flourish, build real hardware projects, and master the digital skills of tomorrow.
           </motion.p>
 
           <motion.div 

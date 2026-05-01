@@ -30,8 +30,36 @@ const royal = Great_Vibes({
 
 
 export const metadata: Metadata = {
-  title: "DevNeko Academy",
-  description: "A high-performance, minimalist LMS for robotics education.",
+  title: "DevNeko Academy | Robotics, AI & Coding for the Next Generation",
+  description: "DevNeko Academy is the premier robotics and AI learning platform for kids. Master future skills with hands-on coding, hardware projects, and mentor-led courses. Join the future of STEM education today.",
+  keywords: ["robotics for kids", "coding academy", "AI education", "STEM learning", "hardware projects", "DevNeko Academy", "robotics education", "programming for kids", "Arduino projects"],
+  authors: [{ name: "DevNeko Team" }],
+  metadataBase: new URL('https://devnekoacademy.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "DevNeko Academy | Robotics, AI & Coding for the Next Generation",
+    description: "Master robotics and AI with DevNeko Academy. Hands-on projects for future innovators.",
+    url: 'https://devnekoacademy.com',
+    siteName: 'DevNeko Academy',
+    images: [
+      {
+        url: '/favicon.png',
+        width: 800,
+        height: 600,
+        alt: 'DevNeko Academy Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "DevNeko Academy | Robotics, AI & Coding for the Next Generation",
+    description: "Master robotics and AI with DevNeko Academy. Hands-on projects for future innovators.",
+    images: ['/favicon.png'],
+  },
   icons: {
     icon: [
       { url: '/favicon.png', type: 'image/png' },
@@ -39,7 +67,18 @@ export const metadata: Metadata = {
     ],
     shortcut: '/favicon.png',
     apple: '/favicon.png',
-  }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
